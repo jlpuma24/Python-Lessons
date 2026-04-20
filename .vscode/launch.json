@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run hello.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/hello.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
